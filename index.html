@@ -393,12 +393,14 @@
 
       <div class="proj-card reveal">
         <div class="proj-top">
-          <div class="proj-title">ContentOS AI Batching</div>
+          <div class="proj-title">Solace — Research Assistant</div>
+          <div class="proj-badge badge-live">Live</div>
         </div>
-        <div class="proj-desc">An AI-powered content generation pipeline orchestrating Research, Content Producer, and Brand Guardian agents via a <b>LangGraph state machine</b>. Features <b>history-aware prompt injection</b> to enforce topic diversity, a <b>two-tier semantic deduplication</b> system using ChromaDB embeddings to prevent overlapping ideas, and a Streamlit dashboard that acts as a human approval gate with full before/after feedback capture for future Phase 3 model tuning.</div>
-        <div class="proj-stack"><span>LangGraph</span><span>Streamlit</span><span>ChromaDB</span><span>SQLite</span><span>Groq</span></div>
+        <div class="proj-desc">A multi-agent RAG system for biomedical research questions. A 7-stage <b>LangGraph pipeline</b> retrieves live from PubMed, and a dedicated Corroborator stage re-checks every claim against its source abstract — dropping anything unsupported rather than down-weighting it.</div>
+        <div class="proj-stack"><span>FastAPI</span><span>LangGraph</span><span>Groq</span><span>PubMed API</span><span>PostgreSQL</span></div>
         <div class="proj-links">
-          <a class="proj-link secondary" href="https://github.com/aditi23garg/contentos-ai" target="_blank" rel="noopener">Code</a>
+          <a class="proj-link" href="https://solace-5v0f.onrender.com/" target="_blank" rel="noopener">↗ Live app</a>
+          <a class="proj-link secondary" href="https://github.com/aditi23garg/solace_research-assistant" target="_blank" rel="noopener">Code</a>
         </div>
       </div>
 
@@ -417,23 +419,23 @@
 
       <div class="proj-card reveal">
         <div class="proj-top">
-          <div class="proj-title">AI Interview Voice Assistant</div>
+          <div class="proj-title">NCERT Class 9 Science QA</div>
         </div>
-        <div class="proj-desc">A low-latency, real-time voice interview platform on <b>Gemini's Multimodal Live API</b>. Streams bidirectional audio over WebSockets with server-side VAD for natural turn-taking, tailors questions to an uploaded resume and JD, and auto-generates a scored evaluation report.</div>
-        <div class="proj-stack"><span>Next.js</span><span>FastAPI</span><span>Gemini Live API</span><span>WebSockets</span><span>SQLite</span></div>
+        <div class="proj-desc">A RAG chatbot over 12 NCERT Science chapters that treats <b>document structure as first-class</b> — extracting 7 distinct section types before chunking, then a two-stage <b>retrieve → re-rank → generate</b> pipeline with cited answers.</div>
+        <div class="proj-stack"><span>LangChain</span><span>ChromaDB</span><span>Groq / Llama 3</span><span>BGE-large</span><span>Cross-Encoder</span></div>
         <div class="proj-links">
-          <a class="proj-link secondary" href="https://github.com/aditi23garg/ai_interview_assistant" target="_blank" rel="noopener">Code</a>
+          <a class="proj-link secondary" href="https://github.com/aditi23garg/ncert_class9_science_llm" target="_blank" rel="noopener">Code</a>
         </div>
       </div>
 
       <div class="proj-card reveal">
         <div class="proj-top">
-          <div class="proj-title">Solace — Research Assistant</div>
+          <div class="proj-title">ContentOS AI Batching</div>
         </div>
-        <div class="proj-desc">A multi-agent RAG system for biomedical research questions. A 7-stage <b>LangGraph pipeline</b> retrieves live from PubMed, and a dedicated Corroborator stage re-checks every claim against its source abstract — dropping anything unsupported rather than down-weighting it.</div>
-        <div class="proj-stack"><span>FastAPI</span><span>LangGraph</span><span>Groq</span><span>PubMed API</span><span>PostgreSQL</span></div>
+        <div class="proj-desc">An AI-powered content generation pipeline orchestrating Research, Content Producer, and Brand Guardian agents via a <b>LangGraph state machine</b>. Features <b>history-aware prompt injection</b> to enforce topic diversity, a <b>two-tier semantic deduplication</b> system using ChromaDB embeddings to prevent overlapping ideas, and a Streamlit dashboard that acts as a human approval gate with full before/after feedback capture for future Phase 3 model tuning.</div>
+        <div class="proj-stack"><span>LangGraph</span><span>Streamlit</span><span>ChromaDB</span><span>SQLite</span><span>Groq</span></div>
         <div class="proj-links">
-          <a class="proj-link secondary" href="https://github.com/aditi23garg/solace_research-assistant" target="_blank" rel="noopener">Code</a>
+          <a class="proj-link secondary" href="https://github.com/aditi23garg/contentos-ai" target="_blank" rel="noopener">Code</a>
         </div>
       </div>
 
@@ -450,16 +452,14 @@
         </div>
       </div>
 
-
-
       <div class="proj-card reveal">
         <div class="proj-top">
-          <div class="proj-title">NCERT Class 9 Science QA</div>
+          <div class="proj-title">AI Interview Voice Assistant</div>
         </div>
-        <div class="proj-desc">A RAG chatbot over 12 NCERT Science chapters that treats <b>document structure as first-class</b> — extracting 7 distinct section types before chunking, then a two-stage <b>retrieve → re-rank → generate</b> pipeline with cited answers.</div>
-        <div class="proj-stack"><span>LangChain</span><span>ChromaDB</span><span>Groq / Llama 3</span><span>BGE-large</span><span>Cross-Encoder</span></div>
+        <div class="proj-desc">A low-latency, real-time voice interview platform on <b>Gemini's Multimodal Live API</b>. Streams bidirectional audio over WebSockets with server-side VAD for natural turn-taking, tailors questions to an uploaded resume and JD, and auto-generates a scored evaluation report.</div>
+        <div class="proj-stack"><span>Next.js</span><span>FastAPI</span><span>Gemini Live API</span><span>WebSockets</span><span>SQLite</span></div>
         <div class="proj-links">
-          <a class="proj-link secondary" href="https://github.com/aditi23garg/ncert_class9_science_llm" target="_blank" rel="noopener">Code</a>
+          <a class="proj-link secondary" href="https://github.com/aditi23garg/ai_interview_assistant" target="_blank" rel="noopener">Code</a>
         </div>
       </div>
 
